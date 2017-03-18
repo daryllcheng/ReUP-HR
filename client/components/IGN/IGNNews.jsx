@@ -2,9 +2,9 @@ import React from 'react';
 
 const IGNNews = ({ content }) => {
   return (
-    <div class='carousel-item'>
+    <div>
       <img src={ content.urlToImage } />
-      <div class='carousel-caption d-none d-md-block'>
+      <div>
         <h3>{ content.title }</h3>
         <h5>{ content.author }</h5>
         <p>{ content.description }</p>

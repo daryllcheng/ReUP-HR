@@ -6,8 +6,8 @@ const Explore = () => {
   return (
     <div className="mainView pre-scrollable">
       <IGNExplore />
-      <strong>Polygon</strong>
-      <PolygonExplore />
+      {/*<strong>Polygon</strong>
+      <PolygonExplore />*/}
     </div>
   );
 };
